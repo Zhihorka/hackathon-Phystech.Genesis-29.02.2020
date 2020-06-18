@@ -1,0 +1,129 @@
+.pools-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.Header-block {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Open Sans';
+  font-size: 18px;
+}
+
+.borderName,.borderBegin,.borderEnd  {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  border: 1px solid black;
+  padding: 15px;
+  background: #e8e8e8;
+}
+
+.borderName {
+  border-radius: 10px 0 0 10px;
+}
+
+.borderEnd {
+  border-radius: 0 10px 10px 0;
+}
+
+.listborderName,.listborderBegin,.listborderEnd  {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  border-bottom: 1px solid black;
+  padding: 15px;
+  color: black;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.Probl, .Pr {
+  font-family: 'Open Sans';
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #FFD700;
+  border: 1px solid white;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+.Pr {
+  margin-left: 50px;
+}
+
+.Probl:hover {
+  background-color: white;
+  border: 1px solid #FFD700;
+  border-radius: 4px;
+  outline: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.Pr:hover {
+  background-color: white;
+  border: 1px solid #FFD700;
+  border-radius: 4px;
+  outline: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.text {
+  margin-top: 25px;
+  font-size: 20px;
+  font-family: 'IBM Plex Sans';
+}
+
+.A {
+  margin-top: 10px;
+}
+
+.bottomdown {
+  margin-top: 10px;
+}
+
+.Send {
+  background-color: #FFD700;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.Send:hover {
+    background: white;
+    border: 1px solid #FFD700;
+    border-radius: 4px;
+    width: 98px;
+    height: 38px;
+    padding: 5px;
+}
+
+.Ar {
+  width: 80%;
+  height: 200px;
+  resize: none;
+  font-size: 18px;
+  font-family: 'Comfortaa';
+  cursor: text;
+}

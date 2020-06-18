@@ -1,0 +1,52 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: url('../img/DSC_0744.JPG');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.sign-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30vw;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 24px;
+  border-radius: 4px;
+}
+
+.form-logo {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 24px;
+  font-family: 'Poppins';
+}
+
+.form-logo span {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 24px;
+  font-family: 'Open Sans';
+}
+
+.sign-form form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-form a {
+  color: black;
+  text-decoration: none;
+}

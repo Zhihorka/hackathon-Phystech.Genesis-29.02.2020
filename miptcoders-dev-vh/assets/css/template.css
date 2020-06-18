@@ -1,0 +1,58 @@
+header {
+  width: 60%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 5px 1px #a6a6a6;
+  background: white;
+  z-index: 10000;
+}
+
+header div {
+  color: #ffa200;
+  font-size: 36px;
+  font-weight: bolder;
+  font-family: 'Poppins';
+}
+
+header nav a {
+  margin-left: 16px;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*Стили для футера*/
+footer {
+  font-size: 16px;
+  padding: 16px 0;
+  margin-top: 30px;
+  width: 100%;
+  font-family: 'Open Sans';
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: 0 0 5px 1px #a6a6a6;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+  margin-top: 84px;
+  padding: 0 20%;
+}
